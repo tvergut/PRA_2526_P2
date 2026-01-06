@@ -1,3 +1,5 @@
+all: bin/testTableEntry bin/testHashTable bin/testBSTree bin/testBSTreeDict
+
 bin/testTableEntry: testTableEntry.cpp TableEntry.h
 	mkdir -p bin
 	g++ -o bin/testTableEntry testTableEntry.cpp
